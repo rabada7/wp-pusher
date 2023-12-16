@@ -129,8 +129,15 @@ h1{
     flex-shrink: 0;
     background: #F5F7FA;
 }
+hr{
+    outline: none;
+    border: none;
+    height: 2px;
+    flex-shrink: 0;
+    background: #E0E6EA;
+}
 .line-two{
-    width: max-content;
+    width: fit-content;
     height: 2px;
     flex-shrink: 0;
     background: #E0E6EA;
