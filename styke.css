@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 1200px; */
+    margin: 0;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    background: #f5f8fa;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-body {
+    width: 100%; 
+    height: 100%;
+    position: relative; 
+    background: #F5F8FA; 
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
+
+.top-bar {
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 39px;
+    flex-shrink: 0;
+    margin-left: 40px;
+}
+/* img{
+    width: 200px;
+    height: 39px;
+    flex-shrink: 0;
+    margin-left: auto;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+} */
+.options {
+    width: 476px;
+    height: 40px;
+    display: flex; 
+
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+/* Simplified common styles for the options */
+.Download,
+.Learn-more,
+.Pricing,
+.Help,
+.top-btn {
+    color: #1D2C3C;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.top-btn {
+    width: 91px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    outline: 0.2px solid black;
+}
+
+.panel{
+    display: flex;
+    width: 100%;
+    height: 845px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-top: 70px;
+}
+.checkout {
+    width: 580px;
+    height: 795px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    margin-right: 0;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+    font-family: 'Lato', sans-serif;
+}
+.title{
+    width: 580px;
+    height: 80px;
+   flex-shrink: 0;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; 
+   margin-right: 10px;
+}
+h1{
+    width: 161px;
+    height: 54px;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 41px;
+    margin-top: 41px;
+}
+.line {
+    width: 580px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #F5F7FA;
+}
+.line-two{
+    width: 1358px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #E0E6EA;
+}
+
+
+.form{
+  display: flex;
+  width: 580px;
+  height: 221px;
+
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    gap: 30px; 
+    margin-bottom: 10px;
+}
+/* .input-box {
+    position: relative;
+} */
+
+.basic-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 221px;
+    flex-shrink: 0;
+}
+
+text{
+    color: #548BC5;
+}
+  /* Other existing styles for different components */
+  .number-one {
+    width: 260px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    margin-bottom: 40px; /* Add margin to create space between .number-one and input boxes */
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    flex-shrink: 0; 
+    width: 227px;
+   
+}
+
+.input-box span.details {
+    position: absolute;
+    top: -25px; 
+    color: #1D2C3C;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+input{
+    width: 100%;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #EDEFF2;
+    border: none;
+    padding: 10px;
+}
+#inputBox{
+    width: 370px;
+    height: 36px;
+   flex-shrink: 0;
+}
+.form-two{
+    width: 580px;
+    height: 154px;
+    flex-shrink: 0;
+    display: flex;
+    width: 580px;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    margin-left: 41px;
+}
+#creditCard{
+    width: 483px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EDEFF2;
+    display: flex;
+    justify-content: space-between;
+}
+.number-two{
+    width: 286px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    margin-bottom: 40px; 
+}
+.purchase{
+    width: 483px;
+    height: 146px;
+    flex-shrink: 0;
+    margin-top: 20pxpx;
+    margin-left: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pusher-button{
+    width: 483px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #038E7D;
+    color: #FFF;
+   text-align: center;
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.396px;
+    border: none;
+}
+.support{
+    width: 483px;
+    height: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.Help{
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+.Dont{
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+.pricing {
+    border-radius: 6px;
+    background: #1179BF;
+    width: 312px;
+    height: 795px;
+    flex-shrink: 0;
+    margin-left: 0;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.freelancer{
+    width: 231px;
+    height: 152px;
+    flex-shrink: 0;
+    margin-left: 46px;
+    margin-top: 42px;
+}
+.free{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+.year{
+    width: 140px;
+   height: 72px;
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+}
+.ye{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+.kan{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+.kim{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+.north{
+    margin-right: 40px;
+    color: #FFF;
+    font-family: Lato;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.008px;
+}
+.detail{
+    width: 170px;
+    height: 96px;
+    flex-shrink: 0;
+    margin-left: 46px;
+    margin-top: 42px;
+}
+.khloe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.khlo{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.008px;
+}
+.switch{
+    width: 184px;
+    height: 51px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    margin-left: 46px;
+    display: flex;
+    flex-direction: column;
+}
+.hay{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    margin-bottom: 10px;
+}
+.hey{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+}
+.heyo{
+    display: block;
+    width: 100%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    
+}
+.rec{
+    width: 180px;
+    height: 4px;
+    margin-left: 46px;
+    flex-shrink: 0;
+    opacity: 0.5036;
+    margin-top: 20px;
+    background: #B9F5FF; 
+}
+.line-three{
+    width: 224px;
+   height: 2px;
+   flex-shrink: 0;
+   opacity: 0.2005;
+   background: #FFF;
+}
+.quote{
+    width: 229px;
+    height: 196px;
+    flex-shrink: 0;
+    margin-left: 46px;
+    margin-top: 42px;
+}
+.qout{
+    margin-top: 43px;
+}
+.qouets{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.009px;
+    
+}
+.anel{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009px;
+}
+.ben{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+}
+.gel{
+     border-radius: 50%;
+}
+.down-image{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
