@@ -130,7 +130,7 @@ h1{
     background: #F5F7FA;
 }
 .line-two{
-    width: 100%;
+    width: max-content;
     height: 2px;
     flex-shrink: 0;
     background: #E0E6EA;
