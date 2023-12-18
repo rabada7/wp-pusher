@@ -200,7 +200,7 @@ text{
    
 }
 
-.input-box label.details {
+.input-box span.details {
     position: absolute;
     top: -25px; 
     color: #1D2C3C;
